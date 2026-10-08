@@ -27,7 +27,7 @@ Los datasets fueron descargados del Catálogo de Datos Abiertos de Uruguay (AGES
 | `datos_docentes_2022.csv` | 2022 |
 | `actividad-de-docentes-2024.csv` | 2024 |
 | `actividad-de-docentes-2025.csv` | 2025 |
-| `docentes_datos_abiertos_agesic.csv` | Histórico AGESIC |
+| `docentes_datos_abiertos_agesic.csv` | 2023 (nombre distinto al resto de los años) |
 
 ### Actividad estudiantil
 
@@ -39,7 +39,7 @@ Los datasets fueron descargados del Catálogo de Datos Abiertos de Uruguay (AGES
 | `datos_estudiantes_2022.csv` | 2022 |
 | `actividad-de-estudiantes-2024.csv` | 2024 |
 | `actividad-de-estudiantes-2025.csv` | 2025 |
-| `estudiantes_datos_abiertos_agesic.csv` | Histórico AGESIC |
+| `estudiantes_datos_abiertos_agesic.csv` | 2023 (nombre distinto al resto de los años) |
 
 > Los archivos originales se conservan sin modificaciones en `Datasets & Metadatos/`. Todo procesamiento opera sobre copias o sobre los archivos consolidados en `Recursos/`.
 
@@ -131,7 +131,7 @@ Los datasets fueron descargados del Catálogo de Datos Abiertos de Uruguay (AGES
 
 Los datos corresponden a métricas de actividad en plataformas digitales (CREA, Matific, PAM, Biblioteca País) y no incluyen calificaciones, asistencia ni información que permita identificar a personas individuales. La variable `Contexto` (quintil de vulnerabilidad) está disponible únicamente para centros de DGEIP.
 
-La cobertura es 2019–2025, con una discontinuidad en 2023 en los datasets descargados. Los años 2024 y 2025 provienen de archivos con nomenclatura diferente a los años anteriores; la compatibilidad de variables se verificará en la etapa de exploración y limpieza.
+La cobertura es 2019–2025, sin años faltantes: cada archivo corresponde a un único año lectivo (el de 2023 es el archivo `*_datos_abiertos_agesic.csv`). Los archivos de 2023, 2024 y 2025 tienen nomenclatura diferente a la de 2019–2022, y en docentes las columnas de comentarios y acciones de CREA cambian de nombre en 2025; la compatibilidad de variables se resuelve en la etapa de exploración y limpieza.
 
 ---
 
