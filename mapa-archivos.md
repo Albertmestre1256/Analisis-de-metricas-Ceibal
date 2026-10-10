@@ -1,5 +1,5 @@
 # Mapa de archivos — Proyecto Ceibal
-_Actualizado: 2026-10-08_
+_Actualizado: 2026-10-09_
 
 ## Árbol completo
 
@@ -32,7 +32,7 @@ Proyecto - Ceibal/
 │   ├── Etapa I - Convertir los datasets en Parquet/
 │   │   └── Concatenación de datos.ipynb
 │   └── Etapa II - Exploración primaria + Limpieza/
-│       └── Untitled.ipynb
+│       └── Exploración primaria y limpieza.ipynb
 ├── Recursos/
 │   ├── Dataset docentes concatenado/
 │   │   └── dataset_docentes_consolidado.parquet
@@ -60,4 +60,4 @@ Se omiten carpetas y archivos ocultos (`.git`, `.gitignore`, `.ipynb_checkpoints
 - Datos crudos en `Datasets & Metadatos/` — conservar sin modificar.
 - Datos procesados (Parquet consolidados) en `Recursos/`.
 - Trabajo activo en `Proyecto/Etapa I` (completa) y `Etapa II`.
-- El notebook de Etapa II aún no tiene nombre definitivo (`Untitled.ipynb`).
+- Notebook de Etapa II: `Exploración primaria y limpieza.ipynb` (en curso; limpieza de docentes).
