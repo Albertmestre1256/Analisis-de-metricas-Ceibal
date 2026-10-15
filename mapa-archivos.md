@@ -1,6 +1,6 @@
 # Mapa de archivos — Proyecto - Ceibal
 
-Generado el 12/10/2026 (America/Montevideo). Excluye carpetas y archivos ocultos (`.git`, `.ipynb_checkpoints`, etc.).
+Generado el 15/10/2026 (America/Montevideo). Excluye carpetas y archivos ocultos (`.git`, `.ipynb_checkpoints`, etc.).
 
 ## Árbol
 
@@ -35,7 +35,8 @@ Proyecto - Ceibal/
 │   ├── Etapa I - Convertir los datasets en Parquet/
 │   │   └── Concatenación de datos.ipynb
 │   └── Etapa II - Exploración primaria + Limpieza/
-│       └── EDA y limpieza de datos.ipynb
+│       ├── EDA - Docentes.ipynb
+│       └── EDA - Estudiantes.ipynb
 └── Recursos/
     ├── Dataset docentes concatenado/
     │   └── dataset_docentes_consolidado.parquet
@@ -45,13 +46,13 @@ Proyecto - Ceibal/
 
 ## Resumen
 
-- **Total:** 24 archivos en 12 carpetas (el conteo incluye `README.md` y este mapa).
-- **Por tipo:** 16 `.csv`, 2 `.pdf`, 2 `.parquet`, 2 `.ipynb`, 2 `.md`.
-- **Carpetas principales:** `Datasets & Metadatos/` (datos crudos y metadatos), `Proyecto/` (un notebook por etapa), `Recursos/` (Parquet consolidados).
+- **Total:** 25 archivos en 12 carpetas, incluida la raíz (el conteo incluye `README.md` y este mapa).
+- **Por tipo:** 16 `.csv`, 2 `.pdf`, 2 `.parquet`, 3 `.ipynb`, 2 `.md`.
+- **Carpetas principales:** `Datasets & Metadatos/` (datos crudos y metadatos, ≈502 MB), `Proyecto/` (un notebook por etapa; la Etapa II tiene uno por dataset), `Recursos/` (Parquet consolidados, ≈60 MB: docentes ≈3,5 MB y estudiantes ≈58,9 MB).
 
 ## Notas
 
 - Los CSV de 2019–2022 llevan el patrón `datos_<dataset>_<año>.csv`; los de 2024 y 2025, `actividad-de-<dataset>-<año>.csv`. El de 2023 se llama `*_datos_abiertos_agesic.csv`.
 - Los metadatos (CSV y PDF) no indican el año al que corresponden.
-- El notebook de la Etapa II se llamaba `Exploración primaria y limpieza.ipynb` y fue renombrado por Albert a `EDA y limpieza de datos.ipynb`.
+- La Etapa II se dividió en dos notebooks: `EDA - Docentes.ipynb` (en curso, 62 celdas) y `EDA - Estudiantes.ipynb` (recién creado: 6 celdas, con importaciones y carga del Parquet). Antes había un único `EDA y limpieza de datos.ipynb`, que ya no está en la carpeta.
 - Todavía no existen `docentes_limpio.parquet` ni `estudiantes_limpio.parquet`: son los productos pendientes de la Etapa II.
