@@ -120,6 +120,8 @@ Los datasets fueron descargados del Catálogo de Datos Abiertos de Uruguay (AGES
 | 9 | Artículo académico | `articulo_ceibal.pdf` | ⬜ Pendiente |
 | 10 | Comunicación del proyecto | README + portfolio | ⬜ Pendiente |
 
+**Decisión (15/10/2026):** el EDA (etapas 2–3) se separó en dos notebooks, uno por población: `EDA - Docentes.ipynb` y `EDA - Estudiantes.ipynb`, dentro de `Proyecto/Etapa II - Exploración primaria + Limpieza/`. Se hizo por legibilidad (commit «Separación del EDA por legibilidad»). Cada población se limpia y se exporta por separado.
+
 ---
 
 ## Hallazgos de la etapa de limpieza (docentes, en curso)
