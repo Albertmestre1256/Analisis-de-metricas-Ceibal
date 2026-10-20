@@ -1,0 +1,13 @@
+﻿columna,tipo,filas,nulos,nulos_pct,valores_distintos_conocidos,sin_dato_textual,sin_clasificar
+Id persona,string,379153,0,0.0,74929,0,0
+Sexo,object,379153,0,0.0,3,413,0
+Rol,object,379153,0,0.0,1,0,0
+Departamento,object,379153,0,0.0,20,39,0
+Subsistema,object,379153,0,0.0,3,0,0
+Año lectivo,int64,379153,0,0.0,7,0,0
+Cantidad de días ingreso a CREA,int64,379153,0,0.0,327,0,0
+Cantidad de días de ingreso a Biblioteca,int64,379153,0,0.0,223,0,0
+Cantidad de préstamos en biblioteca,int64,379153,0,0.0,141,0,0
+archivo_origen,object,379153,0,0.0,7,0,0
+comentarios,float64,379153,0,0.0,2362,0,0
+acciones,float64,379153,0,0.0,7551,0,0
