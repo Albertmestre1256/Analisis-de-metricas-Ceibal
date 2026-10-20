@@ -1,0 +1,9 @@
+# Entorno verificado con Python 3.13.9 para el cierre del EDA, 20/10/2026
+pandas==2.3.3
+numpy==2.3.5
+pyarrow==21.0.0
+matplotlib==3.10.6
+seaborn==0.13.2
+nbformat==5.10.4
+nbclient==0.10.2
+ipykernel==6.31.0

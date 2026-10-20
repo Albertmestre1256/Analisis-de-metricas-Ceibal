@@ -1,0 +1,85 @@
+﻿Año lectivo,Subsistema,filas,nulos,ceros,positivos,negativos,nulos_pct,metrica
+2019,DGEIP,348319,0,252579,95740,0,0.0,Cantidad de días de ingreso a Matific
+2019,DGES,230954,230954,0,0,0,100.0,Cantidad de días de ingreso a Matific
+2019,DGETP,88774,88774,0,0,0,100.0,Cantidad de días de ingreso a Matific
+2020,DGEIP,349301,0,159827,189474,0,0.0,Cantidad de días de ingreso a Matific
+2020,DGES,231879,231879,0,0,0,100.0,Cantidad de días de ingreso a Matific
+2020,DGETP,86933,86933,0,0,0,100.0,Cantidad de días de ingreso a Matific
+2021,DGEIP,346973,0,188699,158274,0,0.0,Cantidad de días de ingreso a Matific
+2021,DGES,233531,233531,0,0,0,100.0,Cantidad de días de ingreso a Matific
+2021,DGETP,86475,86475,0,0,0,100.0,Cantidad de días de ingreso a Matific
+2022,DGEIP,342443,0,216491,125952,0,0.0,Cantidad de días de ingreso a Matific
+2022,DGES,231606,231606,0,0,0,100.0,Cantidad de días de ingreso a Matific
+2022,DGETP,83682,83682,0,0,0,100.0,Cantidad de días de ingreso a Matific
+2023,DGEIP,333923,0,192144,141779,0,0.0,Cantidad de días de ingreso a Matific
+2023,DGES,228361,228361,0,0,0,100.0,Cantidad de días de ingreso a Matific
+2023,DGETP,85136,85136,0,0,0,100.0,Cantidad de días de ingreso a Matific
+2024,DGEIP,323574,0,174670,148904,0,0.0,Cantidad de días de ingreso a Matific
+2024,DGES,225290,225290,0,0,0,100.0,Cantidad de días de ingreso a Matific
+2024,DGETP,83138,83138,0,0,0,100.0,Cantidad de días de ingreso a Matific
+2025,DGEIP,312244,0,225963,86281,0,0.0,Cantidad de días de ingreso a Matific
+2025,DGES,224493,224493,0,0,0,100.0,Cantidad de días de ingreso a Matific
+2025,DGETP,83682,83682,0,0,0,100.0,Cantidad de días de ingreso a Matific
+2019,DGEIP,348319,0,264727,83592,0,0.0,Cantidad de episodios finalizados en Matific
+2019,DGES,230954,230954,0,0,0,100.0,Cantidad de episodios finalizados en Matific
+2019,DGETP,88774,88774,0,0,0,100.0,Cantidad de episodios finalizados en Matific
+2020,DGEIP,349301,0,204184,145117,0,0.0,Cantidad de episodios finalizados en Matific
+2020,DGES,231879,231879,0,0,0,100.0,Cantidad de episodios finalizados en Matific
+2020,DGETP,86933,86933,0,0,0,100.0,Cantidad de episodios finalizados en Matific
+2021,DGEIP,346973,0,211622,135351,0,0.0,Cantidad de episodios finalizados en Matific
+2021,DGES,233531,233531,0,0,0,100.0,Cantidad de episodios finalizados en Matific
+2021,DGETP,86475,86475,0,0,0,100.0,Cantidad de episodios finalizados en Matific
+2022,DGEIP,342443,0,236925,105518,0,0.0,Cantidad de episodios finalizados en Matific
+2022,DGES,231606,231606,0,0,0,100.0,Cantidad de episodios finalizados en Matific
+2022,DGETP,83682,83682,0,0,0,100.0,Cantidad de episodios finalizados en Matific
+2023,DGEIP,333923,0,221380,112543,0,0.0,Cantidad de episodios finalizados en Matific
+2023,DGES,228361,228361,0,0,0,100.0,Cantidad de episodios finalizados en Matific
+2023,DGETP,85136,85136,0,0,0,100.0,Cantidad de episodios finalizados en Matific
+2024,DGEIP,323574,0,203433,120141,0,0.0,Cantidad de episodios finalizados en Matific
+2024,DGES,225290,225290,0,0,0,100.0,Cantidad de episodios finalizados en Matific
+2024,DGETP,83138,83138,0,0,0,100.0,Cantidad de episodios finalizados en Matific
+2025,DGEIP,312244,0,258065,54179,0,0.0,Cantidad de episodios finalizados en Matific
+2025,DGES,224493,224493,0,0,0,100.0,Cantidad de episodios finalizados en Matific
+2025,DGETP,83682,83682,0,0,0,100.0,Cantidad de episodios finalizados en Matific
+2019,DGEIP,348319,0,265675,82644,0,0.0,Cantidad de días de ingreso a PAM
+2019,DGES,230954,0,190355,40599,0,0.0,Cantidad de días de ingreso a PAM
+2019,DGETP,88774,0,80908,7866,0,0.0,Cantidad de días de ingreso a PAM
+2020,DGEIP,349301,0,243244,106057,0,0.0,Cantidad de días de ingreso a PAM
+2020,DGES,231879,0,155510,76369,0,0.0,Cantidad de días de ingreso a PAM
+2020,DGETP,86933,0,69204,17729,0,0.0,Cantidad de días de ingreso a PAM
+2021,DGEIP,346973,0,305177,41796,0,0.0,Cantidad de días de ingreso a PAM
+2021,DGES,233531,0,188676,44855,0,0.0,Cantidad de días de ingreso a PAM
+2021,DGETP,86475,0,77083,9392,0,0.0,Cantidad de días de ingreso a PAM
+2022,DGEIP,342443,0,342437,6,0,0.0,Cantidad de días de ingreso a PAM
+2022,DGES,231606,0,231604,2,0,0.0,Cantidad de días de ingreso a PAM
+2022,DGETP,83682,0,83679,3,0,0.0,Cantidad de días de ingreso a PAM
+2023,DGEIP,333923,333923,0,0,0,100.0,Cantidad de días de ingreso a PAM
+2023,DGES,228361,228361,0,0,0,100.0,Cantidad de días de ingreso a PAM
+2023,DGETP,85136,85136,0,0,0,100.0,Cantidad de días de ingreso a PAM
+2024,DGEIP,323574,0,323574,0,0,0.0,Cantidad de días de ingreso a PAM
+2024,DGES,225290,0,225290,0,0,0.0,Cantidad de días de ingreso a PAM
+2024,DGETP,83138,0,83138,0,0,0.0,Cantidad de días de ingreso a PAM
+2025,DGEIP,312244,312244,0,0,0,100.0,Cantidad de días de ingreso a PAM
+2025,DGES,224493,224493,0,0,0,100.0,Cantidad de días de ingreso a PAM
+2025,DGETP,83682,83682,0,0,0,100.0,Cantidad de días de ingreso a PAM
+2019,DGEIP,348319,0,269165,79154,0,0.0,Cantidad de actividades finalizadas en PAM
+2019,DGES,230954,0,192762,38192,0,0.0,Cantidad de actividades finalizadas en PAM
+2019,DGETP,88774,0,81584,7190,0,0.0,Cantidad de actividades finalizadas en PAM
+2020,DGEIP,349301,0,249254,100047,0,0.0,Cantidad de actividades finalizadas en PAM
+2020,DGES,231879,0,162446,69433,0,0.0,Cantidad de actividades finalizadas en PAM
+2020,DGETP,86933,0,71616,15317,0,0.0,Cantidad de actividades finalizadas en PAM
+2021,DGEIP,346973,0,306239,40734,0,0.0,Cantidad de actividades finalizadas en PAM
+2021,DGES,233531,0,190738,42793,0,0.0,Cantidad de actividades finalizadas en PAM
+2021,DGETP,86475,0,77676,8799,0,0.0,Cantidad de actividades finalizadas en PAM
+2022,DGEIP,342443,0,342440,3,0,0.0,Cantidad de actividades finalizadas en PAM
+2022,DGES,231606,0,231606,0,0,0.0,Cantidad de actividades finalizadas en PAM
+2022,DGETP,83682,0,83680,2,0,0.0,Cantidad de actividades finalizadas en PAM
+2023,DGEIP,333923,333923,0,0,0,100.0,Cantidad de actividades finalizadas en PAM
+2023,DGES,228361,228361,0,0,0,100.0,Cantidad de actividades finalizadas en PAM
+2023,DGETP,85136,85136,0,0,0,100.0,Cantidad de actividades finalizadas en PAM
+2024,DGEIP,323574,0,323574,0,0,0.0,Cantidad de actividades finalizadas en PAM
+2024,DGES,225290,0,225290,0,0,0.0,Cantidad de actividades finalizadas en PAM
+2024,DGETP,83138,0,83138,0,0,0.0,Cantidad de actividades finalizadas en PAM
+2025,DGEIP,312244,312244,0,0,0,100.0,Cantidad de actividades finalizadas en PAM
+2025,DGES,224493,224493,0,0,0,100.0,Cantidad de actividades finalizadas en PAM
+2025,DGETP,83682,83682,0,0,0,100.0,Cantidad de actividades finalizadas en PAM

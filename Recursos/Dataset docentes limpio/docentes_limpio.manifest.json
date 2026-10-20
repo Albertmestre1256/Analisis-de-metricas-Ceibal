@@ -1,0 +1,50 @@
+{
+  "fecha_cierre": "2026-10-20",
+  "poblacion": "docentes",
+  "filas": 379153,
+  "columnas": 12,
+  "personas_distintas": 74929,
+  "tipos": {
+    "Id persona": "string",
+    "Sexo": "object",
+    "Rol": "object",
+    "Departamento": "object",
+    "Subsistema": "object",
+    "Año lectivo": "int64",
+    "Cantidad de días ingreso a CREA": "int64",
+    "Cantidad de días de ingreso a Biblioteca": "int64",
+    "Cantidad de préstamos en biblioteca": "int64",
+    "archivo_origen": "object",
+    "comentarios": "float64",
+    "acciones": "float64"
+  },
+  "nulos": {
+    "Id persona": 0,
+    "Sexo": 0,
+    "Rol": 0,
+    "Departamento": 0,
+    "Subsistema": 0,
+    "Año lectivo": 0,
+    "Cantidad de días ingreso a CREA": 0,
+    "Cantidad de días de ingreso a Biblioteca": 0,
+    "Cantidad de préstamos en biblioteca": 0,
+    "archivo_origen": 0,
+    "comentarios": 0,
+    "acciones": 0
+  },
+  "transformaciones": [
+    "Unificación comentarios/acciones con combine_first, sin solapamientos",
+    "strip en Sexo, Subsistema y Departamento",
+    "67 faltantes Sexo completados para 62 IDs con valor conocido único; restantes conservados",
+    "Sin eliminación de filas, imputación de Departamento, recorte de extremos ni reemplazo de ceros"
+  ],
+  "origen_relativo": "Recursos\\Dataset docentes concatenado\\dataset_docentes_consolidado.parquet",
+  "origen_sha256": "a0e7012f662945783d462915c9ac2febeb18a43bd3b3cd29816ce9c8906e4c3b",
+  "salida_sha256": "ba36a0ec41882dba6991d75733741c381d7ad99a103ee83cef254e1dda9404bd",
+  "relectura_identica": true,
+  "versiones": {
+    "python": "3.13.9",
+    "pandas": "2.3.3",
+    "pyarrow": "21.0.0"
+  }
+}
