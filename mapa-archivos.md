@@ -1,58 +1,65 @@
 # Mapa de archivos — Proyecto - Ceibal
 
-Generado el 15/10/2026 (America/Montevideo). Excluye carpetas y archivos ocultos (`.git`, `.ipynb_checkpoints`, etc.).
+Generado: 20/10/2026 (carpeta conectada `Proyecto - Ceibal/`, sin carpetas ocultas ni `.git`).
 
 ## Árbol
 
 ```
 Proyecto - Ceibal/
-├── README.md
-├── mapa-archivos.md
-├── Datasets & Metadatos/                      (fuente cruda: no modificar)
+├── Datasets & Metadatos/
 │   ├── Dataset - Docentes/
-│   │   ├── datos_docentes_2019.csv
-│   │   ├── datos_docentes_2020.csv
-│   │   ├── datos_docentes_2021.csv
-│   │   ├── datos_docentes_2022.csv
-│   │   ├── docentes_datos_abiertos_agesic.csv       (año 2023)
-│   │   ├── actividad-de-docentes-2024.csv
-│   │   └── actividad-de-docentes-2025.csv
+│   │   ├── actividad-de-docentes-2024.csv (3.1 MB)
+│   │   ├── actividad-de-docentes-2025.csv (8.8 MB)
+│   │   ├── datos_docentes_2019.csv (2.8 MB)
+│   │   ├── datos_docentes_2020.csv (2.9 MB)
+│   │   ├── datos_docentes_2021.csv (3.0 MB)
+│   │   ├── datos_docentes_2022.csv (3.0 MB)
+│   │   └── docentes_datos_abiertos_agesic.csv (3.3 MB)
 │   ├── Dataset - Estudiantes/
-│   │   ├── datos_estudiantes_2019.csv
-│   │   ├── datos_estudiantes_2020.csv
-│   │   ├── datos_estudiantes_2021.csv
-│   │   ├── datos_estudiantes_2022.csv
-│   │   ├── estudiantes_datos_abiertos_agesic.csv    (año 2023)
-│   │   ├── actividad-de-estudiantes-2024.csv
-│   │   └── actividad-de-estudiantes-2025.csv
+│   │   ├── actividad-de-estudiantes-2024.csv (66.5 MB)
+│   │   ├── actividad-de-estudiantes-2025.csv (62.1 MB)
+│   │   ├── datos_estudiantes_2019.csv (69.3 MB)
+│   │   ├── datos_estudiantes_2020.csv (71.2 MB)
+│   │   ├── datos_estudiantes_2021.csv (71.2 MB)
+│   │   ├── datos_estudiantes_2022.csv (68.8 MB)
+│   │   └── estudiantes_datos_abiertos_agesic.csv (65.7 MB)
 │   ├── Metadatos - Docentes/
-│   │   ├── metadatos_actividad_docente.csv
-│   │   └── metadatos_actividad_docente.pdf
+│   │   ├── metadatos_actividad_docente.csv (5 KB)
+│   │   └── metadatos_actividad_docente.pdf (53 KB)
 │   └── Metadatos - Estudiantes/
-│       ├── metadatos_actividad_estudiante.csv
-│       └── metadatos_actividad_estudiante.pdf
+│       ├── metadatos_actividad_estudiante.csv (11 KB)
+│       └── metadatos_actividad_estudiante.pdf (63 KB)
 ├── Proyecto/
 │   ├── Etapa I - Convertir los datasets en Parquet/
-│   │   └── Concatenación de datos.ipynb
+│   │   └── Concatenación de datos.ipynb (10 KB)
 │   └── Etapa II - Exploración primaria + Limpieza/
-│       ├── EDA - Docentes.ipynb
-│       └── EDA - Estudiantes.ipynb
-└── Recursos/
-    ├── Dataset docentes concatenado/
-    │   └── dataset_docentes_consolidado.parquet
-    └── Dataset estudiantes concatenado/
-        └── dataset_estudiantes_consolidado.parquet
+│       ├── EDA - Docentes.ipynb (284 KB)
+│       └── EDA - Estudiantes.ipynb (2 KB)
+├── Recursos/
+│   ├── Dataset docentes concatenado/
+│   │   └── dataset_docentes_consolidado.parquet (3.3 MB)
+│   ├── Dataset docentes limpio/
+│   │   └── docentes_limpio.parquet (3.2 MB)
+│   ├── Dataset estudiantes concatenado/
+│   │   └── dataset_estudiantes_consolidado.parquet (56.1 MB)
+│   └── Dataset estudiantes limpio/
+├── mapa-archivos.md (3 KB)
+└── README.md (13 KB)
 ```
 
 ## Resumen
 
-- **Total:** 25 archivos en 12 carpetas, incluida la raíz (el conteo incluye `README.md` y este mapa).
-- **Por tipo:** 16 `.csv`, 2 `.pdf`, 2 `.parquet`, 3 `.ipynb`, 2 `.md`.
-- **Carpetas principales:** `Datasets & Metadatos/` (datos crudos y metadatos, ≈502 MB), `Proyecto/` (un notebook por etapa; la Etapa II tiene uno por dataset), `Recursos/` (Parquet consolidados, ≈60 MB: docentes ≈3,5 MB y estudiantes ≈58,9 MB).
+Archivos: 26.
+
+- .csv: 16
+- .ipynb: 3
+- .parquet: 3
+- .md: 2
+- .pdf: 2
+
+Carpetas principales: `Datasets & Metadatos/` (fuente cruda, no modificar), `Proyecto/` (notebooks por etapa), `Recursos/` (Parquet consolidados y limpios).
 
 ## Notas
 
-- Los CSV de 2019–2022 llevan el patrón `datos_<dataset>_<año>.csv`; los de 2024 y 2025, `actividad-de-<dataset>-<año>.csv`. El de 2023 se llama `*_datos_abiertos_agesic.csv`.
-- Los metadatos (CSV y PDF) no indican el año al que corresponden.
-- La Etapa II se dividió en dos notebooks: `EDA - Docentes.ipynb` (en curso, 62 celdas) y `EDA - Estudiantes.ipynb` (recién creado: 6 celdas, con importaciones y carga del Parquet). Antes había un único `EDA y limpieza de datos.ipynb`, que ya no está en la carpeta.
-- Todavía no existen `docentes_limpio.parquet` ni `estudiantes_limpio.parquet`: son los productos pendientes de la Etapa II.
+- `Recursos/Dataset estudiantes limpio/` está vacía en esta carpeta.
+- En `Proyecto/Etapa II…/` no hay módulos auxiliares: el notebook de docentes importa `utilidades_eda.py` y no lo encuentra en esta carpeta.
